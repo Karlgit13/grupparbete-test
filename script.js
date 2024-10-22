@@ -3,7 +3,7 @@ window.onload = function() {
     
 }
 
-const suits = ["hjärter", "ruter", "klöver", "spader"];
+const suits = ["Hearts", "diamond", "clubs", "spades"];
 const values = [
   "A",
   "2",
