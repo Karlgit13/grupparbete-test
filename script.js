@@ -33,3 +33,28 @@ function createDeck() {
 }
 
 const myDeck = createDeck();
+
+
+
+
+function showRandomCards (){
+  
+  const random = values[Math.floor(Math.random() * values.length)];
+
+  const random2 = values[Math.floor(Math.random() * values.length)];
+
+  const result = random + random2;
+
+  document.getElementById('result').textContent = `Random Sum: ${result}`;
+  
+
+
+
+
+
+}
+
+
+
+
+

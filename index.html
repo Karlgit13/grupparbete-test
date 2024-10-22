@@ -17,7 +17,18 @@
     <section id="player-points"></section>
     <section id="dealer-points"></section>
 
-    <button onclick="playerDrawsCard()">Dra kort</button>
+
+
+        <section class="playerSection" >
+    <button id="giveCard">Give card</button>
+    <button>Stop</button>
+    </section>
+
+      <button class="valuOfCards" onclick="showRandomCards()" > Tryck på mig för värden</button>  <!-- här ska värdet av 2 kort summeras. kommentar av : Lum Shabani -->
+      <section class="valuOfSum" id="result" ></section>   <!-- Tryck på give cards så ser ni när det hoppar fram värden.-->
+
+  
+
     <button onclick="dealerPlays()">Stanna</button>
 
 </body>
